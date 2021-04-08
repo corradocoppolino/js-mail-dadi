@@ -58,6 +58,8 @@ document.getElementById("estrattocomputer").innerHTML="Il computer ha estratto i
 
 if(giocatore > computer){
     document.getElementById("dadi").innerHTML="Hai vinto"
+}else if(giocatore === computer){
+    document.getElementById("dadi").innerHTML="Hai pareggiato"
 }else{
     document.getElementById("dadi").innerHTML="Hai perso"
 }
